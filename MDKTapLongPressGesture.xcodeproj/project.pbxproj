@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF3D2D1420AAE3B200831A60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D2D1320AAE3B200831A60 /* AppDelegate.swift */; };
+		FF3D2D1620AAE3B200831A60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D2D1520AAE3B200831A60 /* ViewController.swift */; };
+		FF3D2D1920AAE3B200831A60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3D2D1720AAE3B200831A60 /* Main.storyboard */; };
+		FF3D2D1B20AAE3B200831A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF3D2D1A20AAE3B200831A60 /* Assets.xcassets */; };
+		FF3D2D1E20AAE3B200831A60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3D2D1C20AAE3B200831A60 /* LaunchScreen.storyboard */; };
+		FF3D2D2C20AAE3F900831A60 /* MDKTapPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3D2D2A20AAE3F900831A60 /* MDKTapPanGesture.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF3D2D1020AAE3B100831A60 /* MDKTapLongPressGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDKTapLongPressGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF3D2D1320AAE3B200831A60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF3D2D1520AAE3B200831A60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF3D2D1820AAE3B200831A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF3D2D1A20AAE3B200831A60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF3D2D1D20AAE3B200831A60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF3D2D1F20AAE3B200831A60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3D2D2A20AAE3F900831A60 /* MDKTapPanGesture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDKTapPanGesture.swift; sourceTree = "<group>"; };
+		FF3D2D2B20AAE3F900831A60 /* MDKTwoTapLongPressGesture-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MDKTwoTapLongPressGesture-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF3D2D2D20AAE43F00831A60 /* UIGestureRecognizerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIGestureRecognizerSubclass.h; path = "../../../../../Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 10.3.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/UIKit.framework/Headers/UIGestureRecognizerSubclass.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF3D2D0D20AAE3B100831A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF3D2D0720AAE3B100831A60 = {
+			isa = PBXGroup;
+			children = (
+				FF3D2D2920AAE3F900831A60 /* Class */,
+				FF3D2D1220AAE3B100831A60 /* MDKTapLongPressGesture */,
+				FF3D2D1120AAE3B100831A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF3D2D1120AAE3B100831A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D2D1020AAE3B100831A60 /* MDKTapLongPressGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3D2D1220AAE3B100831A60 /* MDKTapLongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D2D1320AAE3B200831A60 /* AppDelegate.swift */,
+				FF3D2D1520AAE3B200831A60 /* ViewController.swift */,
+				FF3D2D1720AAE3B200831A60 /* Main.storyboard */,
+				FF3D2D1A20AAE3B200831A60 /* Assets.xcassets */,
+				FF3D2D1C20AAE3B200831A60 /* LaunchScreen.storyboard */,
+				FF3D2D1F20AAE3B200831A60 /* Info.plist */,
+			);
+			path = MDKTapLongPressGesture;
+			sourceTree = "<group>";
+		};
+		FF3D2D2920AAE3F900831A60 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FF3D2D2D20AAE43F00831A60 /* UIGestureRecognizerSubclass.h */,
+				FF3D2D2A20AAE3F900831A60 /* MDKTapPanGesture.swift */,
+				FF3D2D2B20AAE3F900831A60 /* MDKTwoTapLongPressGesture-Bridging-Header.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF3D2D0F20AAE3B100831A60 /* MDKTapLongPressGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3D2D2220AAE3B200831A60 /* Build configuration list for PBXNativeTarget "MDKTapLongPressGesture" */;
+			buildPhases = (
+				FF3D2D0C20AAE3B100831A60 /* Sources */,
+				FF3D2D0D20AAE3B100831A60 /* Frameworks */,
+				FF3D2D0E20AAE3B100831A60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MDKTapLongPressGesture;
+			productName = MDKTapLongPressGesture;
+			productReference = FF3D2D1020AAE3B100831A60 /* MDKTapLongPressGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF3D2D0820AAE3B100831A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mdk;
+				TargetAttributes = {
+					FF3D2D0F20AAE3B100831A60 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF3D2D0B20AAE3B100831A60 /* Build configuration list for PBXProject "MDKTapLongPressGesture" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF3D2D0720AAE3B100831A60;
+			productRefGroup = FF3D2D1120AAE3B100831A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF3D2D0F20AAE3B100831A60 /* MDKTapLongPressGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF3D2D0E20AAE3B100831A60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3D2D1E20AAE3B200831A60 /* LaunchScreen.storyboard in Resources */,
+				FF3D2D1B20AAE3B200831A60 /* Assets.xcassets in Resources */,
+				FF3D2D1920AAE3B200831A60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF3D2D0C20AAE3B100831A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF3D2D2C20AAE3F900831A60 /* MDKTapPanGesture.swift in Sources */,
+				FF3D2D1620AAE3B200831A60 /* ViewController.swift in Sources */,
+				FF3D2D1420AAE3B200831A60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF3D2D1720AAE3B200831A60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3D2D1820AAE3B200831A60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF3D2D1C20AAE3B200831A60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF3D2D1D20AAE3B200831A60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF3D2D2020AAE3B200831A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF3D2D2120AAE3B200831A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF3D2D2320AAE3B200831A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AP6XM8L72;
+				INFOPLIST_FILE = MDKTapLongPressGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdk.MDKTapLongPressGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Class/MDKTwoTapLongPressGesture-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF3D2D2420AAE3B200831A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3AP6XM8L72;
+				INFOPLIST_FILE = MDKTapLongPressGesture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mdk.MDKTapLongPressGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Class/MDKTwoTapLongPressGesture-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF3D2D0B20AAE3B100831A60 /* Build configuration list for PBXProject "MDKTapLongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3D2D2020AAE3B200831A60 /* Debug */,
+				FF3D2D2120AAE3B200831A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3D2D2220AAE3B200831A60 /* Build configuration list for PBXNativeTarget "MDKTapLongPressGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF3D2D2320AAE3B200831A60 /* Debug */,
+				FF3D2D2420AAE3B200831A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF3D2D0820AAE3B100831A60 /* Project object */;
+}
