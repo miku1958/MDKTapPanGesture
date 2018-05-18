@@ -15,11 +15,6 @@ open class MDKTapPanGesture: UIPanGestureRecognizer{
 	private var tapingCount = 0
 	private var lastTapTime:TimeInterval = 0
 
-	private var _state:UIGestureRecognizerState = .possible
-
-	open func state() -> UIGestureRecognizerState{
-		return _state;
-	}
 
 	open override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 		let now = NSDate().timeIntervalSince1970
@@ -40,9 +35,8 @@ open class MDKTapPanGesture: UIPanGestureRecognizer{
 			_state = .began
 
 			super.touchesMoved(touches, with: event!)
-			self.notiTargetPerformAction()
+//			self.notiTargetPerformAction()
 
-			_state = .possible
 		}
 	}
 
